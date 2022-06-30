@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font family */
+
+@font-face {
+    font-family: 'font-1';
+    src: url('../fonts/lucida-calligraphy-italic.ttf');
+}
+@font-face {
+    font-family: 'font-2';
+    src: url('../fonts/Amasis-MT-Std-Black.ttf');
+}
+@font-face {
+    font-family: 'font-3';
+    src: url('../fonts/calibri.ttf');
+}
+
+body{
+    font-family: 'font-1';
+    
+}
+.mark-sheet-area {
+    width: 794px;
+    height: 1123px;
+    margin: auto;
+    position: relative;
+    padding: 80px 60px 50px 60px;
+}
+.border-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.mark-sheet-header{
+    text-align: center;
+}
+.mark-sheet-header h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+
+}
+.mark-sheet-header p {
+    font-size: 20px;
+}
+.ins-logo{
+    width: 200px;
+}
+.mark-sheet-header h3 {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: font-2;
+    text-decoration: underline;
+}
+.header-bold{
+    font-family: 'font-2';
+    font-size: 16px !important;
+}
+.header-info-section {
+    display: flex;
+    justify-content: space-between;
+}
+.left-info {
+    width: 300px;
+    font-size: 12px;
+    
+}
+
+.single-info{
+    display: flex;
+}
+.single-info span{
+    width: 115px;
+}
+.single-info b{
+    width: 185px;
+}
+
+table{
+    font-family: 'font-3';
+    border-collapse: collapse;
+    font-size: 12px;
+    text-align: center;
+}
+table tr th , table tr td{
+    border: 1px solid #111;
+    padding: 1px 10px;
+}
+table tr th {
+    background: #8eaadb;
+    font-weight: 500;
+}
+.gradding-table {
+    margin-top: -25px;
+}
+
+/* main body mark section */
+.main-body-mark-section{
+    width: 100%;
+    margin-top: 20px;
+}
+.main-mark-table{
+    width: 100%;
+}
+.main-mark-table tr th , .summery-table tr th{
+    background: #a8d08d;
+}
+.main-mark-table tr td:nth-child(2){
+    text-align: left;
+}
+.mark-table-footer-row {
+    font-weight: bold;
+    background: #ffd966;
+}
+.mark-table-footer-row td:first-child{
+    text-align: right;
+}
+.mark-table-footer-row td:nth-child(2){
+    text-align: center !important;
+}
+
+/* sheet-footer area */
+.sheet-footertop-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sheet-footer-left{
+    display: flex;
+    width: 450px;
+}
+
+.summery-table tr th{
+    font-weight: bold;
+}
+
+.short-grade-table {
+    width: 175px;
+}
+.discussion-area{
+    width: 265px;
+    margin-right: 10px;
+}
+.rowspan-4{
+    padding: 0px 70px;
+}
+.sheet-footer-right{
+    width: 180px;
+}
+.qr-code-area img {
+    width: 100px;
+}
+b.comment {
+    font-family: 'font-3';
+    font-size: 15px;
+    border-bottom: 2px solid #111;
+}
+
+
+
+.sheet-footer-bottom-section {
+    display: flex;
+    font-family: 'font-3';
+    justify-content: space-between;
+    font-size: 14px;
+    width: 100%;
+    padding-top: 100px;
+}
+.footer-bottom-left , .footer-bottom-center , .footer-bottom-right {
+    padding: 0px 15px;
+    padding-top: 10px;
+    border-top: 1px dotted #8eaadb;
+    position: relative;
+}
+/* .footer-bottom-right img{
+    position: absolute;
+    left: -15px;
+    top: -40px;
+    width: 90px;
+} */
+.body-bottom-buttons{
+    width: 500px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+.body-bottom-buttons button{
+    padding: 10px 35px;
+    color: #fff;
+    background: #8eaadb;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 250px;
+    border-radius: 15px;
+}
+.body-bottom-buttons button:hover{
+    background: #a8d08d;
+}

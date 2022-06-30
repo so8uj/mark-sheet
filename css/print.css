@@ -1,0 +1,8 @@
+@media print{
+    /* .mark-sheet-area{
+        margin-top: -30px;
+    } */
+    .body-bottom-buttons {
+        display: none;
+    }
+}
